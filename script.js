@@ -3,3 +3,4 @@
     const navBar = document.querySelector('.navbar')
     navBar.classList.toggle('active');
  }
+ 

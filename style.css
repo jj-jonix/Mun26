@@ -91,7 +91,7 @@ header{
         background-color: black;
         transition: 0.7s;
         overflow: hidden;
-       
+        
     }
     .navbar.active{
         height: 100vh;
