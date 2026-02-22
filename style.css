@@ -58,13 +58,6 @@ header{
 
 }
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 800px){
     .hamburger{
         display: block;
@@ -75,11 +68,11 @@ header{
         height: 3px;
         background: white;
         margin: 6px;
-    }
+    } 
     .navbar{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         text-align: center;
         height: 0px;
@@ -96,8 +89,6 @@ header{
     .navbar.active{
         height: 100vh;
     }
-
-
     .navbar ul{
         display: block;
         width: fit-content;
